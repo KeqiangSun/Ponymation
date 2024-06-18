@@ -11,10 +11,14 @@
 
 We introduce Ponymation, a new method for learning a generative model of articulated 3D animal motions from raw, unlabeled online videos. Unlike existing approaches for motion synthesis, our model does not require any pose annotations or parametric shape models for training, and is learned purely from a collection of raw video clips obtained from the Internet. We build upon a recent work, MagicPony, which learns articulated 3D animal shapes purely from single image collections, and extend it on two fronts. First, instead of training on static images, we augment the framework with a video training pipeline that incorporates temporal regularizations, achieving more accurate and temporally consistent reconstructions. Second, we learn a generative model of the underlying articulated 3D motion sequences via a spatio-temporal transformer VAE, simply using 2D reconstruction losses without relying on any explicit pose annotations. At inference time, given a single 2D image of a new animal instance, our model reconstructs an articulated, textured 3D mesh, and generates plausible 3D animations by sampling from the learned motion latent space.
 
-## Video Presentation
+<!-- ![Ponymation Video](https://github.com/KeqiangSun/keqiangsun.github.io/blob/master/projects/ponymation/resources/teaser.mp4)
+![Alt text](https://assets.digitalocean.com/articles/alligator/boo.svg "a title") -->
+
+
+<!-- ## Video Presentation
 
 <!-- [![Ponymation Video](https://img.youtube.com/vi/poc7c-9hCvQ/0.jpg)](https://www.youtube.com/watch?v=poc7c-9hCvQ) -->
-https://github.com/KeqiangSun/keqiangsun.github.io/blob/master/projects/ponymation/resources/teaser.mp4
+<!-- https://github.com/KeqiangSun/keqiangsun.github.io/blob/master/projects/ponymation/resources/teaser.mp4 --> -->
 
 <!-- ## Motion Generation Results
 
