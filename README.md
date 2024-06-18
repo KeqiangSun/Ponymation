@@ -14,15 +14,7 @@ We introduce Ponymation, a new method for learning a generative model of articul
 ## Video Presentation
 
 <!-- [![Ponymation Video](https://img.youtube.com/vi/poc7c-9hCvQ/0.jpg)](https://www.youtube.com/watch?v=poc7c-9hCvQ) -->
-<iframe
-  width="560"
-  height="315"
-  src="https://www.youtube.com/embed/poc7c-9hCvQ?si=TRMwwkQYrH4FTRfI"
-  frameborder="0"
-  allow="autoplay; encrypted-media"
-  allowfullscreen
->
-</iframe>
+https://github.com/KeqiangSun/keqiangsun.github.io/blob/master/projects/ponymation/resources/teaser.mp4
 
 <!-- ## Motion Generation Results
 
